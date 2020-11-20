@@ -26,7 +26,7 @@ STACK_IMAGE="${STACK_IMAGE:-openliberty/application-stack:0.3}"
 #
 # URL at which your outer loop Dockerfile is hosted
 #
-DEVFILE_DOCKERFILE_LOC="${DEVFILE_DOCKERFILE_LOC:-https://raw.githubusercontent.com/OpenLiberty/application-stack/master/outer-loop/0.3/Dockerfile}"
+DEVFILE_DOCKERFILE_LOC="${DEVFILE_DOCKERFILE_LOC:-https://github.com/OpenLiberty/application-stack/releases/download/v0.3.0/Dockerfile}"
 
 #
 # URL at which your outer loop deploy YAML template is hosted
